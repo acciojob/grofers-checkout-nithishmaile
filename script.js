@@ -13,7 +13,7 @@ const getSum = () => {
     let trElement=document.createElement("tr");
     table.appendChild(trElement);
     let tdElement=document.createElement("td");
-    tdElement.textContent="Total Price";
+    tdElement.textContent="total price";
     trElement.appendChild(tdElement)
     let td2Element=document.createElement("td");
     td2Element.innerHTML=`${totalPrice}`;
